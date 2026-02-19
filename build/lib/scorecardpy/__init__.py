@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*- 
 
-from scorecardpy.germancredit import germancredit
 from scorecardpy.split_df import split_df
 from scorecardpy.info_value import iv
 # from .info_ent_indx_gini import (ig, ie)
@@ -15,8 +14,7 @@ from scorecardpy.vif import vif
 __version__ = '0.1.9.7'
 
 __all__ = (
-    germancredit,
-    split_df, 
+    split_df,
     iv,
     var_filter,
     woebin, woebin_ply, woebin_plot, woebin_adj,
